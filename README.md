@@ -4,13 +4,13 @@ This if fork of [sax-js](https://github.com/isaacs/sax-js) with modifications
 needed for [xml-lens](https://github.com/note/xml-lens). `xml-lens` is a Scala
 library for XML and its scala.js subproject depends on this fork of `sax-js`.
 
-## Why fork was needed (as opposed to using original sax-js)
+### Why fork was needed (as opposed to using original sax-js)
 
 I wanted possibly consistent behavior between JVM and JS implementations of 
 `xml-lens`. There were a few things that I needed to be handled differently
 so I created a fork.
 
-## Will this fork be useful outside of `xml-lens`
+### Will this fork be useful outside of `xml-lens`
 
 No, I don't think so.
 
